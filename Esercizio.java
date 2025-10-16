@@ -19,7 +19,7 @@ class Esercizio {
             System.out.print("Inserire la dimensione del vettore: ");
             N = Integer.parseInt(in.nextLine());
             if(N <= 0){
-                System.out.println("Inserire un valore maggiore di 0!");
+                System.out.println("Inserire un valore superiore di 0!");
             }
        } while (N <= 0);
 
